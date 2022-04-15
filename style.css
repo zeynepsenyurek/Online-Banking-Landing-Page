@@ -1,0 +1,114 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+}
+
+.gradient {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    13deg,
+    rgba(131, 58, 180, 1) 7%,
+    rgba(253, 29, 102, 1) 23%,
+    rgba(252, 176, 69, 1) 72%,
+    rgba(252, 188, 69, 1) 100%
+  );
+}
+
+h2 {
+  font-size: 3rem;
+  color: rgb(245, 245, 245);
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  color: rgb(60, 60, 60);
+}
+h3 {
+  font-size: 2.4rem;
+  color: rgb(253, 242, 242);
+}
+
+p {
+  color: #222;
+}
+
+#hero {
+  margin-top: 8rem;
+}
+.page-header {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: rgb(236, 236, 236);
+}
+
+.logo-png {
+  width: 11rem;
+}
+
+.logo-github {
+  width: 8rem;
+}
+
+.my-button {
+  color: rgba(255, 255, 255, 0.933);
+  background-color: rgb(169, 130, 210);
+  padding: 0.9rem 1.6rem;
+}
+
+.feautre {
+  color: #fff;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style: none;
+  color: #fff;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(/img/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.gallery img {
+  border-radius: 5%;
+}
+.contact {
+  margin-bottom: 10rem;
+}
+
+.services {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  font-size: 13px;
+  margin: 0;
+}
+
+.features-text {
+  color: #222;
+}
